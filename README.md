@@ -1,2 +1,2 @@
 # CloneAppNubank
- Interface app Nubank.
+ Interface app Nubank feito em React Native.
