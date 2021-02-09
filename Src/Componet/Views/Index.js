@@ -49,7 +49,7 @@ export default class Index extends React.Component{
                                         <View style={Styles.containerCredit}>
                                             <Text style={Styles.textCreditTitle}>FATURA ATUAL</Text>
                                             <Text style={Styles.textCredit}>R$ <Text style={Styles.textCreditColor}>0</Text>,00</Text>
-                                            <Text style={Styles.textCreditLimit}>Limite disponível <Text style={Styles.textCreditLimitColor}>R$ 0,00</Text></Text>
+                                            <Text style={Styles.textCreditLimit}>Limite disponível <Text style={Styles.textCreditLimitColor}>R$ 9,999,999,99</Text></Text>
                                         </View>
 
                                         <View style={Styles.containerMainFooter}>

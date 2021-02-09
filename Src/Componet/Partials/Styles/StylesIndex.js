@@ -16,7 +16,7 @@ export default StyleSheet.create({
         flexDirection: "row",
         justifyContent: "space-between",
         alignItems: "center",
-        marginTop: 60
+        marginTop: '30%'
     },
     logo:{
         marginRight: 7,
@@ -38,8 +38,9 @@ export default StyleSheet.create({
     },
     //Main
     containerScrow:{
+        marginTop: '10%',
         width: 300,
-        height: 330,
+        height: 340,
     },
     containerMain:{
         marginBottom: 20,
@@ -48,7 +49,7 @@ export default StyleSheet.create({
     main:{
         backgroundColor: "#fff",
         width: 300,
-        height: 330,
+        height: 340,
         borderRadius: 2
     },
     containerMainFooter:{
@@ -80,7 +81,7 @@ export default StyleSheet.create({
     },
     //Card credit Body 
     containerCard:{
-        margin: 30,
+        margin: 23,
         flexDirection: "row",
         alignItems: "center",
     },
@@ -110,7 +111,7 @@ export default StyleSheet.create({
         fontWeight: "bold"
     },
     textCreditLimit:{
-        fontSize: 16,
+        fontSize: 14,
         marginBottom: 5
     },
     textCreditLimitColor:{
@@ -159,7 +160,7 @@ export default StyleSheet.create({
     containerRewards:{
         flex: 1,
         alignItems: "center",
-        margin: 25
+        marginVertical:10
     },
     imgGiftbox:{
         width: 30,
@@ -194,8 +195,7 @@ export default StyleSheet.create({
     //FooterNav
     containerNavFooter:{
         marginLeft: 30,
-        marginTop: 20,
-        marginBottom: 15,
+        marginBottom: 50,
     },
     containerNav:{
         marginRight: 10
@@ -209,7 +209,7 @@ export default StyleSheet.create({
     //Profile
     containerImgProfile:{
         flex: 1,
-        alignItems: "flex-start"
+        alignItems: "flex-start",
     },
     ImgProfile:{
         width: 30,
@@ -217,10 +217,10 @@ export default StyleSheet.create({
         margin: 5,
     },
     textProfile:{
-        textAlign: "center",
+        
         fontSize: 13,
         color: "#fff",
-        marginTop: 30,
+        marginTop: 20,
         margin: 5
     },
     ImgPhoneProfile:{
@@ -232,7 +232,7 @@ export default StyleSheet.create({
         textAlign: "left",
         fontSize: 13,
         color: "#fff",
-        marginTop: 20,
+        marginTop: 15,
         margin: 5,
     },
 })
